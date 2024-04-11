@@ -1,3 +1,3 @@
-vim.g.have_nerd_font = true
-
-return {}
+return {
+  { 'm4xshen/hardtime.nvim', dependencies = { 'MunifTanjim/nui.nvim', 'nvim-lua/plenary.nvim' }, opts = {} },
+}
